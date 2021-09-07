@@ -1,0 +1,16 @@
+== SLIM
+
+SLeep IMproved - sleep(1) alternative written in ANSI C.
+
+=== Installing
+
+You can set the +MAKE_SYMLINK+ variable to +0+ if you do not want slim to be linked to +${PREFIX}/sleep+.
+
+[source,bash]
+----
+doas make install
+----
+
+=== License
+
+This work is licensed under the GNU General Public License version 3.0 or any later version.

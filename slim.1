@@ -1,0 +1,28 @@
+.TH SLIM 1 "September 2021" "" "User Commands"
+.SH NAME
+slim \- delay for a specified amount of time, improved
+.SH SYNOPSIS
+.B slim
+[\fIOPTION\fR] \fIDURATION\fR
+.SH DESCRIPTION
+.PP
+Pause for DURATION seconds. DURATION shall be a number that may have a 
+suffix such as 's' for seconds (the default), \&'m' for minutes, 'h' 
+for hours or 'd' for days.
+.TP
+\fB\-p\fR
+Display a progress bar while sleeping
+.TP
+\fB-i\fR \fIDURATION\fR
+Display a message indicating the remaining time to sleep DURATION seconds 
+before the end. The suffix rules also apply to DURATION.
+.SH AUTHOR
+Written by Wafelack <wafelack@riseup.net>.
+.SH COPYRIGHT
+Copyright \(co 2021 Wafelack
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+.br
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+.SH "SEE ALSO"
+sleep(3),sleep(1p)
